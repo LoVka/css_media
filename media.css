@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+  background: #fff;
+}
+
+h2:before {
+  content: "";
+  line-height: 50px;
+}
+
+h2, legend {
+  font: bold 20px garamond, sans-serif;
+}
+
+.BBB {
+  padding: 5px 0;
+  height: 55px;
+}
+
+ul {
+  width: none;
+  padding: 5px 0;
+  margin: auto;
+  outline: 1px solid #000;
+  height: 42px;
+}
+
+ul li {
+  display: inline;
+  float:left;
+  font:bold 16px Arial;
+  width: 25%;
+}
+
+ul li a {
+  color:#666;
+  display:block;
+  height:40px;
+  line-height:36px;
+  padding:0px 0px 0px 30px;
+  background:#fff;
+  text-decoration:none;
+  border: 1px solid #000;
+}
+
+a {
+  color: #148782;
+  line-height: 25px; 
+ }
+
+a:hover {
+  background: #0585f5; 
+  color: #ffe; 
+ } 
+
+.Image {
+  float: left;
+  width: 200px;
+  margin: 0 30px 10px 0;
+}
+
+.First_text{
+  overflow: hidden;
+  _height: 0;/*это для ИЕ5-6*/
+  zoom: 1;/*это для ИЕ7*/
+  text-align: justify;
+
+}
+
+.Second_text{
+  clear: both;
+  text-align: justify;
+}
+
+.Image2{
+  float: right;
+  width: 200px;
+  padding: 0 0 5px 30px;
+}
+
+.Third_text{
+  text-align: justify;
+}
+
+article{
+  padding: 5px 20px;
+  outline: 1px solid #000;
+}
+
+.Faq {
+  clear: both;
+  padding: 5px 20px;
+  outline: 1px solid #000;
+}
+ 
+.ParName {
+  text-align: center;
+}
+
+dd {
+  padding: 5px 0 5px 20px;
+  text-align: justify;
+}
+
+.Cont {
+  padding: 5px 20px;
+  outline: 1px solid #000;
+  line-height: 3;
+}
+
+.Map {
+  float: left;
+  width: 200px;
+  padding: 0 30px 10px 0;
+}
+
+.icon{
+  width: 16px;
+}
+
+fieldset {
+  clear: both;
+  border: 4px;
+  padding: 5px 20px;
+  outline: 1px solid #000;
+  text-align: center;
+}
+
+.Form div {
+  clear: both;
+  line-height: 30px; 
+}
+
+/*input, textarea {
+  clear: both;
+  float: right;
+}*/
+
+footer{
+  clear: both;
+}
