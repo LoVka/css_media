@@ -3,7 +3,7 @@
    License: none (public domain)
 */
  
-@media screen and (min-width:981px){
+@media screen and (min-width:481px) and (max-width:980px) {
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -195,7 +195,7 @@
     padding: 5px 0;
     margin: 1px 0;
     outline: 1px solid #000;
-    height: 60px;
+    height: 120px;
     display: table;
     float:left;
     font:bold 16px Arial;
@@ -204,16 +204,13 @@
   }
 
   footer div a{
-    float:left;
-    text-align: center;
+    display: block;
+    text-align: left;
     width: 24%;
-    margin: 18px 0 0 0;
+    margin: 10px 0 0 0;
     font:bold 14px Times New Roman;
     background-color: #383838;
-  }
-
-  .Fut a:not(:last-child) {
-    border-right: 2px solid #000;
+    padding: 0 20px;
   }
 
   .Let{
@@ -222,7 +219,7 @@
 
   .Let p{
     background-color: #C8C8C8;
-    padding: 5px 5px 5px 20px;
+    padding: 5px 0 5px 20px;
     font:bold 16px Times New Roman;
     font-weight: 300
   }
@@ -241,7 +238,6 @@
     margin: 0;
     color: #000;
     text-decoration: none;
-    padding: 0 5px;
   }
 
   .Poc{

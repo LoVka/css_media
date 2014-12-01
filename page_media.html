@@ -5,14 +5,14 @@
     <title> 
       html.media
     </title>
-     <link rel="stylesheet" href="media.css">
-    <link rel="stylesheet" href="iconFont.css" >
-    <link rel="stylesheet" href="iconFont.min.css" >
+     <link media="screen" rel="stylesheet" href="media.css">
+     <link media="screen" rel="stylesheet" href="ipad.css">
+     <link media="screen" rel="stylesheet" href="iphone.css">
 </head>
 <body>
 <div class="BBB">
 <ul>
-    <li><a href="#about"><img class="icon" src="img/home2.svg" alt=""> About</a></li> 
+    <li><a href="#about"><img class="icon" src="img/home2.svg" alt=""> Home</a></li> 
     <li><a href="#faq"><img class="icon" src="img/question.svg" alt=""> FAQ</a></li>
     <li><a href="#contacts"><img class="icon" src="img/address-book.svg" alt=""> Contacts</a></li>
     <li><a href="#register"><img class="icon" src="img/github.svg" alt=""> Stay in touch</a></li>
@@ -49,15 +49,28 @@
       <form>
         <div>Name: <input type="text" name="name" /></div>
         <div>E-mail: <input type="text" name="email" /></div>
-        <div style="clear: both"><input type="submit" value="Send"/></div>
+        <div><input type="checkbox"/>I agree to get spam</div>
       </form>
   </fieldset>
-    <footer>       
-      <a href="#about">About</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contacts">Contacts</a>
-      <a href="#register">Stay in touch</a> 
-         <p>&copy; 2014 <a href="https://github.com/LoVka">LoVka</a></p>
+    <footer>    
+      <div class='Fut'>   
+        <a href="#about">Home</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Contacts</a>
+        <a href="#register">Stay in touch</a> 
+      </div>
+      <div class='Let'>
+        <p> <img class="icon" src="img/arrow-forward.svg" alt=""> Let us hear your feedback</p>
+        <p class='Reg'>How likely will you advise us?</p>
+          <p class='Ozi'>
+            <a><input type=radio>--</a>
+            <a><input type=radio>-+</a>
+            <a><input type=radio>+-</a>
+            <a><input type=radio>++</a>
+            <a><input type=submit value="Vote"></a>
+          </p>
+      </div>
+      <p class='Poc'>&copy; 2014 <a href="https://github.com/LoVka">LoVka</a></p>
     </footer>
 </body>
 </html>

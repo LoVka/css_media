@@ -3,7 +3,7 @@
    License: none (public domain)
 */
  
-@media screen and (min-width:981px){
+@media screen and (max-width:480px) {
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -61,32 +61,22 @@
     font: bold 20px garamond, sans-serif;
   }
 
-  .BBB {
-    padding: 5px 0;
-    height: 55px;
-  }
-
   ul {
-    width: none;
-    padding: 5px 0;
-    margin: auto;
-    outline: 1px solid #000;
-    height: 42px;
+    outline: 10px solid #000;
+    margin: 10px 3px 3px 3px;
   }
 
   ul li {
-    display: inline;
-    float:left;
+    display: block;
     font:bold 20px Arial;
-    width: 25%;
   }
 
   ul li a {
     color:#666;
     display:block;
-    height:40px;
+    height:80px;
     line-height:36px;
-    padding:0 0 0 30px;
+    padding:0px 0px 0px 30px;
     background:#fff;
     text-decoration:none;
     border: 1px solid #000;
@@ -103,42 +93,34 @@
    } 
 
   .Image {
-    float: left;
-    width: 200px;
-    margin: 0 30px 10px 0;
+    visibility: hidden;
+    width: 0px;
   }
 
   .First_text{
-    overflow: hidden;
-    _height: 0;/*это для ИЕ5-6*/
-    zoom: 1;/*это для ИЕ7*/
     text-align: justify;
-
+    padding: 5px 10px;
+    outline: 2px solid #000;
   }
 
-  .Second_text{
-    clear: both;
-    text-align: justify;
+  .Second_text {
+    visibility: hidden;
+    height: 0px;
   }
 
   .Image2{
-    float: right;
-    width: 200px;
-    padding: 0 0 5px 30px;
+    visibility: hidden;
+    width: 0px;
   }
 
   .Third_text{
-    text-align: justify;
-  }
-
-  article{
-    padding: 5px 20px;
-    outline: 1px solid #000;
+    visibility: hidden;
+    height: 0;
   }
 
   .Faq {
     clear: both;
-    padding: 5px 20px;
+    padding: 5px 10px;
     outline: 1px solid #000;
   }
    
@@ -152,14 +134,13 @@
   }
 
   .Cont {
-    padding: 5px 20px;
-    outline: 1px solid #000;
-    line-height: 3;
+    visibility: hidden;
+    height: 0;
   }
 
   .Map {
-    float: left;
-    width: 200px;
+    height: 200px;
+    width: 320px;
     padding: 0 30px 10px 0;
   }
 
@@ -192,28 +173,17 @@
   }
 
   footer div{
-    padding: 5px 0;
-    margin: 1px 0;
     outline: 1px solid #000;
-    height: 60px;
-    display: table;
-    float:left;
+    height: 200px;
+    display: block;
     font:bold 16px Arial;
-    width: 50%;
+    width: 100%;
     background-color: #383838;
   }
 
-  footer div a{
-    float:left;
-    text-align: center;
-    width: 24%;
-    margin: 18px 0 0 0;
-    font:bold 14px Times New Roman;
-    background-color: #383838;
-  }
-
-  .Fut a:not(:last-child) {
-    border-right: 2px solid #000;
+  .Fut {
+    visibility: hidden;
+    height: 0;
   }
 
   .Let{
@@ -222,26 +192,30 @@
 
   .Let p{
     background-color: #C8C8C8;
-    padding: 5px 5px 5px 20px;
+    padding: 5px 0 5px 20px;
     font:bold 16px Times New Roman;
-    font-weight: 300
-  }
-
-  .Reg{
-    display: inline;
-    float: left;
+    font-weight: 300;
   }
 
   .Ozi a{
     background-color: #C8C8C8;
-    display: inline;
-    float:left;
-    width: 40px;
-    padding: 0;
-    margin: 0;
+    display: block;
+    width: 300px;
     color: #000;
     text-decoration: none;
-    padding: 0 5px;
+    float: left;
+  }
+   
+  .Ozi a:last-child{
+    color: red;
+    display: inline;
+    float: left;
+    position: absolute;
+    right: 1px;
+  }
+
+  input{
+    background: #F0F0F0;
   }
 
   .Poc{
